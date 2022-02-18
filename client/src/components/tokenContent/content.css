@@ -1,0 +1,33 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+   #customers th {
+    border: 0px solid #ddd;
+    
+  }
+  #customers td{
+  padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #222b45; color:#fff}
+  #customers tr:nth-child(odd){background-color: #222b45; color:#fff}
+  
+  #customers tr:hover {background-color: #222b60;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #222b50;
+    color: white;
+  }
+  .bg{
+      background-color: #222b45;
+  }
+  .textfieldcolor{
+    color: white !important;
+  }
